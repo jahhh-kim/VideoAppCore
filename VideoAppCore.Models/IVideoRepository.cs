@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Text;
 
 namespace VideoAppCore.Models
@@ -14,8 +13,7 @@ namespace VideoAppCore.Models
         Video GetVideoById(int id);  // 상세 GetById(int id);
         Video UpdateVideo(Video model); //수정 : T Edit (T model)
         void RemoveVideo(int id);       //삭제 : void Delet(int id);
-
-        //추가: 검색, 페이징 , 소팅,...
+   
     }
 }
 
