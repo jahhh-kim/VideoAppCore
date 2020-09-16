@@ -4,9 +4,9 @@ using System.Collections.Generic;
 namespace VideoAppCore.Models
 {
     /// <summary>
-    /// [4][1] 리포지토리 클래스 : Full ORM EfCore 사용하여 CRUD 구현
+    /// [4][3][1] 리포지토리 클래스 : Full ORM EfCore 사용하여 CRUD 구현
     /// </summary>
-    public class VideoRepositoryAdoEfCore : IVideoRepository
+    public class VideoRepositoryEfCore : IVideoRepository
     {
         public Video AddVedio(Video model)
         {
@@ -33,5 +33,8 @@ namespace VideoAppCore.Models
             throw new NotImplementedException();
         }
     }
+
+
+
 }
 

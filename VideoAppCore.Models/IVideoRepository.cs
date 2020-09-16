@@ -4,7 +4,7 @@ using System.Text;
 namespace VideoAppCore.Models
 {
     /// <summary>
-    /// [3] 인터페이스 : videos 테이블에 대한 CRUD API 명세서 작성
+    /// [3][1] 인터페이스(동기방식) : videos 테이블에 대한 CRUD API 명세서 작성
     /// </summary>
     public interface IVideoRepository
     {
@@ -13,7 +13,8 @@ namespace VideoAppCore.Models
         Video GetVideoById(int id);  // 상세 GetById(int id);
         Video UpdateVideo(Video model); //수정 : T Edit (T model)
         void RemoveVideo(int id);       //삭제 : void Delet(int id);
-   
     }
-}
 
+
+}
+    
