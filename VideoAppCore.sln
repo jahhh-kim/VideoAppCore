@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoAppCore", "VideoAppCore\VideoAppCore.csproj", "{D53021AA-E49D-45B2-9FDF-51CCAF02F05C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VideoAppCore", "VideoAppCore\VideoAppCore.csproj", "{D53021AA-E49D-45B2-9FDF-51CCAF02F05C}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "VideoAppCore.SqlServer", "VideoAppCore.Database\VideoAppCore.SqlServer.sqlproj", "{0CF0BF1B-E92B-4C0F-8EC4-0F1E8FCDF2E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoAppCore.Models", "VideoAppCore.Models\VideoAppCore.Models.csproj", "{E0FB69C4-4DAB-4131-BE74-E7B85EB51A71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VideoAppCore.Models", "VideoAppCore.Models\VideoAppCore.Models.csproj", "{E0FB69C4-4DAB-4131-BE74-E7B85EB51A71}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
