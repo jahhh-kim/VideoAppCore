@@ -58,6 +58,6 @@
     <Folder Include="Properties" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="videos.sql" />
+    <Build Include="Videos.sql" />
   </ItemGroup>
 </Project>
