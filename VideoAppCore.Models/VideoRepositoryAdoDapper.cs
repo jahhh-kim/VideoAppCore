@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace VideoAppCore.Models
 {
     /// <summary>
-    /// [4][2] 리포지토리 클래스 : Dapper 사용 CRUD 구현
+    /// [4][2] 리포지토리 클래스 : Micro ORM Dapper 사용 CRUD 구현
     /// </summary>
     public class VideoRepositoryAdoDapper : IVideoRepository
     {
